@@ -9,7 +9,7 @@ powers = []
 
 XA = 0
 while YA not in powers:
-	powers.append(a ** XA % 353)
+	powers.append(a ** XA % q)
 	XA = XA + 1
 XA = XA - 1
 
@@ -19,7 +19,7 @@ powers = []
 
 XB = 0
 while YB not in powers:
-	powers.append(a ** XB % 353)
+	powers.append(a ** XB % q)
 	XB = XB + 1
 XB = XB - 1
 
